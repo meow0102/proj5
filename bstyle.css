@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+
+.error {
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  gap: 134px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.faq-div {
+  margin-left: 110px;
+}
+
+.faq-title {
+  width: 343px;
+  color: #242527;
+  font-family: "Helvetica Neue";
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.45px;
+  margin-bottom: 16px;
+}
+
+.faq-text {
+  width: 283px;
+  height: 76px;
+  color: #79797c;
+  font-family: "Helvetica Neue";
+  line-height: 1.57;
+}
+
+.faq-link {
+  color: #79797c;
+  font-family: "Helvetica Neue";
+  line-height: 25.2px;
+  text-decoration-line: underline;
+}
+
+.how-title {
+  color: #242527;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 3;
+}
+
+.how-text {
+  width: 700px;
+  height: 120px;
+  color: var(--700, #79797c);
+  font-family: "Helvetica Neue";
+  line-height: 150%;
+  /* 24px */
+  margin-bottom: 40px;
+}
+
+.faq-list-item {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  height: 80px;
+}
+
+.faq-list-item-text {
+  color: #242527;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 3;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.faq-hr {
+  width: 803px;
+  height: 1px;
+  opacity: 0.2;
+  background: #000;
+}
+
+.how-div {
+  display: flex;
+  gap: 447px;
+}
+
+.faq-list-item::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 779px;
+  background-image: url(./plus.svg);
+}
+.fofo {
+  border-bottom: #ff0000 1px solid;
+}
